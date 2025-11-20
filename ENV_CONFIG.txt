@@ -1,0 +1,15 @@
+# Environment Configuration
+# Copy this content to a new file called .env.local in the root directory
+
+# MongoDB Connection String
+MONGODB_URI=mongodb+srv://mahircodes_db_user:Rl6w9q7gt8xbjOmv@cluster0.2cmg7re.mongodb.net/custom-cms?retryWrites=true&w=majority&appName=Cluster0
+
+# JWT Secret (Strong random string for token signing)
+JWT_SECRET=8f3a9b2c5d6e7f1a4b9c2d3e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b
+
+# Vercel Blob Storage (Optional - add your token when you set it up)
+# BLOB_READ_WRITE_TOKEN=your-vercel-blob-token
+
+# Next.js
+NEXT_PUBLIC_API_URL=http://localhost:3000
+
